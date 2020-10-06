@@ -163,7 +163,7 @@ MonoBehaviour:
   playerBar: {fileID: 2839749377762308061, guid: 921cbf03395e845408255072a5729d15,
     type: 3}
   nPlayers: 3
-  fGoalSize: 40
+  fGoalSize: 100
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0

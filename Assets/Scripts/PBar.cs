@@ -27,9 +27,10 @@ public class PBar : MonoBehaviour
         vecMinR = vecCenter - vecUnit;
     }
 
-    public void Init(Vector3 vCtr){
+    public void Init(Vector3 vCtr, float range){
         vecCenter = vCtr;
         vecDirection = new Vector3(-vCtr.z, 0, vCtr.x) / vCtr.magnitude;
+        this.range = range;
         setup();
     }
 
